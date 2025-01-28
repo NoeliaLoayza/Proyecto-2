@@ -1,0 +1,105 @@
+.bodyfondo{
+    background-image: url("../img/fondobody.jpg") ;
+    background-size: cover;
+}
+
+.header {
+    border-radius: 10px;
+    border: 5px solid rgb(210, 1, 123);
+    background-image: url('../img/pryl.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.encabezado {
+    margin-left: 15PX;
+}
+
+.titulo {
+    font-family: 'sans-serif';
+    margin: 0;
+    font-weight: 1000;
+}
+.descripcion {
+    font-family: 'arial';
+    font-weight: 600;
+    margin: 0;
+}
+
+.productos img {
+    border-radius: 10px;
+    box-shadow: -4px 4px 5px 1px lightblue;
+    width: 280px;
+    height: 200px;
+}
+
+.main {
+    border-radius: 10px;
+    margin-top: 15px;
+    border: 5px solid rgb(210, 1, 123);
+    text-align: center;
+}
+
+.seccion {
+    display: flex;
+    margin-left: 20%;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.texto {
+    margin-left: 10px;;
+}
+
+.texto h3 {
+    margin: 0;
+}
+
+.texto p {
+    margin: 0;
+}
+
+.texto .boton{
+  border: none;
+  width: 100px;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: rgba(221, 63, 221, 0.548);
+  color: aliceblue;
+  font-size: 16px;
+  font-family: cursive;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.texto .boton:hover {
+    width: 105px;
+    height: 45px;
+}
+
+.footer {
+    margin-top: 15px;
+}
+
+.pie {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border: 5px solid rgb(210, 1, 123);
+    background-color: rgba(253, 75, 253, 0.363);
+}
+
+.pie a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
